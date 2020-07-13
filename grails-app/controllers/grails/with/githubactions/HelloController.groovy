@@ -2,5 +2,7 @@ package grails.with.githubactions
 
 class HelloController {
 
-    def index() { }
+    def index() {
+        render "hello"
+    }
 }
